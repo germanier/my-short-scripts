@@ -29,6 +29,15 @@ yay -S obs-studio
 yay -S teams-for-insiders
 
 # git stuff
+
+yay -S "git-credential-manager-core-bin-2.0.498-1"
+git config --global core.editor micro
+git config --global user.name "Marco Germanier"
+git config --global user.email "85969120+pensivecoding@users.noreply.github.com"
+git-credential-manager-core configure
+
+
+
 mkdir Documents/git
 cd Documents/git
 
